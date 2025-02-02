@@ -1,0 +1,112 @@
+/* *********Together******** */
+@media only screen and (max-width: 991px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+
+
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.7s ease-out;
+        height: 450px;
+
+    }
+
+    .nav-list li {
+        padding: 12px 10px;
+    }
+
+    .rightNav {
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 85%;
+        height: 55vh;
+        padding-top: 10vh;
+    }
+
+    .secondHalf img {
+        width: 40%;
+    }
+
+    #search {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .btn-sm {
+        margin-top: 10px;
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 372px;
+
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    .text-big {
+
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text-small {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .form {
+        max-width: 75%;
+    }
+
+    .section,
+    .secLeft {
+        flex-direction: column-reverse;
+        height: fit-content;
+        max-width: 90%;
+
+    }
+
+    .paras {
+        padding: 0px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+
+}
+
+
+/* *********Tab******* */
+@media only screen and (min-width:768px) and (max-width: 991px) {}
+
+/* ********Mobile********* */
+@media only screen and (min-width:320px) and (max-width: 767px) {}
+
+/* ****Mini-device ******** */
+@media only screen and (max-width: 359px) {
+
+
+    .buttons .btn {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+}
