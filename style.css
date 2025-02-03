@@ -70,7 +70,7 @@ html{
 }
 
 .background{
-    background-image: url(/imges/bg-image.jpg);
+    background-image: url(./imges/bg-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
